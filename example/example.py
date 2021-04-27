@@ -1,33 +1,3 @@
-
-[![API Reference](https://img.shields.io/badge/api-reference-blue.svg)]()
-![Python Version](https://img.shields.io/badge/python-3.5｜3.6｜3.7｜3.8-blue.svg)
-[![Build Status](https://img.shields.io/static/v1?label=build&message=passing&color=32CD32)]()
-[![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/linkv-io/python-sdk/blob/master/LICENSE)
-
-# im-py-sdk
-
-LINKV SDK for the Python3 programming language.
-
-## Download
-```sh
-git clone https://github.com/linkv-io/im-py-sdk
-```
-
-## Install
-```sh
-cd python-sdk
-python setup.py build && python setup.py install --record log
-```
-
-## Uninstall
-```sh
-cd python-sdk
-cat log |xargs rm -rf && rm -rf build dist linkv_sdk.egg-info log
-```
-
-## Usage
-
-```python
 # -*- coding: UTF-8 -*-
 from linkv_sdk import linkv_sdk
 
@@ -74,11 +44,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-```
-
-## License
-
-This SDK is distributed under the
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0),
-see LICENSE.txt and NOTICE.txt for more information.
